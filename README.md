@@ -167,3 +167,29 @@ int main() {
 	door.unlock();
 }
 ```
+
+```
+Door State : Closed
+Opening Door . . .
+Door Opened
+
+Door State : Open
+Locking Door . . .
+Cannot Lock Opened Doors
+
+Door State : Open
+Closing Door . . .
+Door Closed
+
+Door State : Closed
+Locking Door . . .
+Door Locked
+
+Door State : Locked
+Opening Door . . .
+Cannot Open Locked Doors
+
+Door State : Locked
+Unlocking Door . . .
+Door Unlocked
+```
