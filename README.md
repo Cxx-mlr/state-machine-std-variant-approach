@@ -1,5 +1,6 @@
 # state-machine-std-variant-approach
 
+```cpp
 #include <iostream>
 #include <variant>
 
@@ -165,3 +166,4 @@ int main() {
 	door.open();
 	door.unlock();
 }
+```
